@@ -27,7 +27,7 @@ Output relations|.
 
 Logit tarnsform is defined by lt = log(p/1-p). Not to be confused with a log operator
 
-See: https://rdrr.io/cran/car/man/logit.html
+If proportions of >= 1 and <=0 atre present the data is adjusted to 0.025 .. 0.975
 
 
 
