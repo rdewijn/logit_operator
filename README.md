@@ -21,13 +21,13 @@ Input parameters|.
 
 Output relations|.
 ---|---
-`logit_transformed`| numeric, sqrt per cell / cell mean
+`logit_transformed`| numeric, logit transformed value per cell (cell mean). 
 
 ##### Details
 
 Logit tarnsform is defined by lt = log(p/1-p). Not to be confused with a log operator
 
-If proportions of >= 1 and <=0 atre present the data is adjusted to 0.025 .. 0.975
+If proportions of >= 1 and <=0 are present the data is adjusted to 0.025 .. 0.975
 
 
 
