@@ -21,7 +21,7 @@ Input parameters|.
 
 Output relations|.
 ---|---
-`logit_transformed`| numeric, sqrt per cell / cell mean
+`logit_transformed`| numeric, logit transformed value per cell (cell mean). 
 
 ##### Details
 
