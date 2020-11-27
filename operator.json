@@ -1,15 +1,15 @@
 {
-  "name": "Log",
-  "description": "Log transform the given data",
+  "name": "Logit transform",
+  "description": "Logit transform of proportion data",
   "tags": ["data wrangling", "data transformation", "transform"],
   "authors": ["tercen"],
-  "urls": ["https://github.com/tercen/log_operator"],
+  "urls": ["https://github.com/rdewijn/logit_operator"],
   "properties": [
    {
-    "kind": "DoubleProperty",
-    "name": "base",
-    "defaultValue": 10,
-    "description": "The base with respect to which logarithms are computed."
+    "kind": "BooleanProperty",
+    "name": "pct",
+    "defaultValue": false,
+    "description": "Logical value that indicates if the proportion are expressed as percentages."
   }
 ]
 }
