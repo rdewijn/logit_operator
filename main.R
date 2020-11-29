@@ -6,7 +6,7 @@ logit = function(x, pct = FALSE){
   eps = 1e-6
   if(any(x<eps))   x[x<0.025] = 0.025
   if(any(x>1-eps)) x[x>0.975] = 0.975
-  result = log(x/1-x)
+  result = log(x/(1-x))
 }
 
 (ctx = tercenCtx())  %>% 
